@@ -13,7 +13,7 @@ import lombok.Data;
 
 @Data
 @Entity
-public class Author {
+public class Author extends Auditable {
 
 	@Id
 	private UUID id;

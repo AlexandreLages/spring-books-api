@@ -20,7 +20,7 @@ import lombok.Data;
 @Data
 @Entity
 @Table(name = "users")
-public class User {
+public class User extends Auditable {
 
 	@Id
 	private UUID id;

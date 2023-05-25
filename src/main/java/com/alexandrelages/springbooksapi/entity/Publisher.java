@@ -14,7 +14,7 @@ import lombok.Data;
 
 @Data
 @Entity
-public class Publisher {
+public class Publisher extends Auditable {
 
 	@Id
 	private UUID id;
